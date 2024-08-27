@@ -101,6 +101,7 @@ with open('decrypted_logs.txt','w') as f:
 2. After logging key presses and saving them to `klogs.txt`, run the fecryptor program:
     ``` bash
     python decryption.py
+
     # The decrypted logs will be saved to `decrytped_logs.txt`.
     ```
 ## WARNING
