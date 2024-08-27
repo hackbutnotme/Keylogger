@@ -10,7 +10,7 @@ with open('klogs.txt', 'rb') as f:
     
 decrypted_logs = []
 decrypted_logs = cipher_suite.decrypt(encrypted_logs)
-#print(decrypted_logs.decode())
+
 with open('decrypted_logs.txt','w') as f:
    f.write(decrypted_logs.decode())
     
