@@ -1,4 +1,6 @@
 # Keylogger with encryption
+## Purpose
+The project is designed to better understand the techniques used by attackers and methods of defending against such threats. 
 ## Description
 This project consist of two programs: one for logging key presses and another for decrypting the logged data. The programs are written in Python and use the `pynput` library to capture key presses and the `cryptography` library for encrypting and decrypting data.
 # Code
