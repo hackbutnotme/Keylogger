@@ -2,7 +2,7 @@
 ## Purpose
 The project is designed to better understand the techniques used by attackers and methods of defending against such threats also as an exercise in script writing in `Python`. 
 ## Description
-This project consist of two programs: one for logging key presses and another for decrypting the logged data. The programs are written in Python and use the `pynput` library to capture key presses and the `cryptography` library for encrypting and decrypting data.
+This project consist of two programs: one for logging key presses and another for decrypting the logged data. The programs are written in Python and use the `pynput` library to capture key presses and the `cryptography` library for encrypting and decrypting data. I also used a `datetime` modul which adds the exact time of the entered string of characters and numbers.
 # Code
 ## Keylogger Program (keylogger.py)
 ``` python 
@@ -82,6 +82,8 @@ with open('decrypted_logs.txt','w') as f:
 print("Decryption complete.")
 sys.exit(0)
 ```
+### Explanation
+
 ## Requirements
 - Python 3.x
 - Libraries:
