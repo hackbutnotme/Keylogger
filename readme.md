@@ -112,4 +112,4 @@ sys.exit(0)
     # The decrypted logs will be saved to `decrytped_logs.txt`.
     ```
 ## WARNING
-This project is intended for educational purposes only. Using such tools to monitor the activities of others without their consent is illegal and unethical. Please use this project responsibly.
+This project is intended for educational purposes only. Using such tools to monitor the activities of others without their consent is illegal and unethical. Please use this project responsibly!
